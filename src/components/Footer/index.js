@@ -5,7 +5,7 @@ import styles from './index.module.css';
 const items = [
 	{
 		title: 'Download',
-		url: 'https://github.com/atomiclabs/dexware/releases/latest',
+		url: '#',
 	},
 	// {
 	// 	title: 'Blog',
@@ -13,11 +13,11 @@ const items = [
 	// },
 	{
 		title: 'GitHub',
-		url: 'https://github.com/atomiclabs/dexware',
+		url: '#',
 	},
 	{
 		title: 'Twitter',
-		url: 'https://twitter.com/dexwareapp',
+		url: '#',
 	},
 ];
 
