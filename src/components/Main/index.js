@@ -15,18 +15,18 @@ import styles from './index.module.css';
 const ctas = [
 	{
 		logo: Exchange,
-		title: 'Non-custodial',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+		title: 'Decentralised exchange',
+		subTitle: 'DEXware requires no custody. Participants trade with each other using the fair Atomic Swap. The exchange process is strongly fair.',
 	},
 	{
 		logo: Swap,
 		title: 'Decentralised order matching',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+		subTitle: 'DEXware does not run any server for order matching. Everyone can participate in the order matching but nobody can censor it.',
 	},
 	{
 		logo: Dashboard,
 		title: 'Decentralised risk control',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+		subTitle: 'DEXware does not run any server for risk control engine. All risk control policies are enforced by Attribute-based Signatures.',
 	},
 ];
 
@@ -50,7 +50,7 @@ const descriptions = [
 
 export default () => (
 	<div className={styles.main}>
-		<p className={styles.title}>One stop crypto exchange solution</p>
+		<p className={styles.title}>DEXware decentralises everything in trading</p>
 		<div className={styles.ctas}>
 			{
 				ctas.map(cta => <Cta key={cta.title} logo={cta.logo} title={cta.title} subTitle={cta.subTitle}/>)
