@@ -15,17 +15,17 @@ import styles from './index.module.css';
 const ctas = [
 	{
 		logo: Exchange,
-		title: 'Decentralized Exhange',
+		title: 'Non-custodial',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
 	},
 	{
 		logo: Swap,
-		title: 'Simple Atomic Swaps',
+		title: 'Decentralised order matching',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
 	},
 	{
 		logo: Dashboard,
-		title: 'Portfolio Manager',
+		title: 'Decentralised risk control',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
 	},
 ];
@@ -33,7 +33,7 @@ const ctas = [
 const descriptions = [
 	{
 		image: WalletImage,
-		title: 'HyperDEX has an awesome wallet',
+		title: 'DEXware has an awesome wallet',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
 	},
 	{
@@ -43,7 +43,7 @@ const descriptions = [
 	},
 	{
 		image: ExchangeImage,
-		title: 'HyperDEX has an awesome Exchange',
+		title: 'DEXware has an awesome Exchange',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
 	},
 ];
@@ -68,7 +68,7 @@ export default () => (
 		<div className={styles.rightWave}>
 			<img src={SideWave} alt="wave"/>
 		</div>
-		<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try HyperDEX?</p>
+		<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try DEXware?</p>
 		<p className={styles.subTitle}>Do your first Atomic Swap in minutes.</p>
 		<Button text="Join the test"/>
 		<p className={styles.text}>Available for macOS, Linux and Windows.</p>

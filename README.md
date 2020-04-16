@@ -1,4 +1,4 @@
-# HyperDEX Website
+# DEXware Website
 
 ## Install
 
