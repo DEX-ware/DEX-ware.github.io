@@ -39,7 +39,7 @@ const descriptions = [
 	{
 		image: SwapImage,
 		title: 'You can run Atomic Swaps like a 7-year-old',
-		subTitle: 'High-techs are hided behind.',
+		subTitle: 'High-techs are all hided behind.',
 	},
 	{
 		image: ExchangeImage,
