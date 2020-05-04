@@ -34,17 +34,17 @@ const descriptions = [
 	{
 		image: WalletImage,
 		title: 'DEXware has an awesome wallet',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+		subTitle: 'Fluent user experiences. Manage your assets via simple clicks.',
 	},
 	{
 		image: SwapImage,
-		title: 'You can do Atomic Swaps easily',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+		title: 'You can run Atomic Swaps like a 7-year-old',
+		subTitle: 'High-techs are hided behind.',
 	},
 	{
 		image: ExchangeImage,
 		title: 'DEXware has an awesome Exchange',
-		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+		subTitle: 'Trade instantly and trustlessly. Clear order book and deal book.',
 	},
 ];
 
